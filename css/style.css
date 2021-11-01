@@ -1,0 +1,373 @@
+/*--start header ---*/
+header
+{
+    background-image: url(../img/hero-bg.jpg) ;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .bg-img
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cap
+{
+    width: 100%; 
+    text-align: center;
+    position: relative;
+}
+.cap h1
+{
+    font-size: 5rem;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.cap p
+{
+    color: #fff;
+    font-size: 40px;
+}
+.cap p::after
+{
+    content: "";
+    animation: typing 13s  infinite;
+}
+@keyframes typing
+{
+    1%{content: "D|" }
+   2%{content: "De|" }
+    4%{content: "Des|" }
+    5%{content: "Desi|" }
+    7%{content: "Desin|" }
+    8%{content: "Desine|" }
+    10%{content: "Desiner|" }
+    12%{content: "Desine|" }
+    13%{content: "Desin|" }
+    15%{content: "Desi|" }
+    16%{content: "Des|" }
+    17%{content: "De|" }
+    18%{content: "D|" }
+    19%{content: "De|" }
+    20%{content: "Dev|" }
+    21%{content: "Deve|" }
+    22%{content: "Devel|" }
+    24%{content: "Develo|" }
+    25%{content: "Develop|" }
+    26%{content: "Develope|" }
+    27%{content: "Developer|" }
+    29%{content: "Develop|" }
+    30%{content: "Develo|" }
+    32%{content: "Devel|" }
+    33%{content: "Deve|" }
+    34%{content: "Dev|" }
+    35%{content: "De|" }
+    36%{content: "D|" }
+    38%{content: "f|" }
+    40%{content: "fr|" }
+    41%{content: "fre|" }
+    42%{content: "free|" }
+    43%{content: "freel|" }
+    45%{content: "freela|" }
+   47%{content: "freelan|" }
+    49%{content: "freelanc|" }
+    50%{content: "freelance|" }
+    52%{content: "freelancer|" }
+   53%{content: "freelance|" }
+    55%{content: "freelanc|" }
+   57%{content: "freelan|" }
+   59%{content: "freela|" }
+    60%{content: "freel|" }
+   63%{content: "free|" }
+  65%{content: "fre|" }
+   67%{content: "fr|" }
+   70%{content: "f|" }
+   72%{content: "p|" }
+  75%{content: "ph|" }
+   76%{content: "pho|" }
+   78%{content: "phot|" }
+  79%{content: "photo|" }
+  80%{content: "photog|" }
+   81%{content: "photogr|" }
+   82%{content: "photogra|" }
+   83%{content: "photograp|" }
+   85%{content: "photograph|" }
+   86%{content: "photographe|" }
+   87%{content: "photographer|" }
+  88%{content: "photographe|" }
+   89%{content: "photograph|" }
+   90%{content: "photograp|" }
+   91%{content: "photogra|" }
+   92%{content: "photogr|" }
+   93%{content: "photog|" }
+   94%{content: "photo|" }
+   95%{content: "phot|" }
+   96%{content: "pho|" }
+   97%{content: "ph|" }
+   99%{content: "p|" }
+   100%{content: "|" }
+}
+/*--end header ---*/
+/* start about */
+.line
+{
+    width: 15%;
+    height: 5px;
+    background-color: blue;
+}
+.progress
+{
+    background-color: #cde1f8;
+}
+.type p
+{
+    font-size: 22px;
+}
+.title-s
+{
+    font-weight: 600;
+    font-size: 18px;
+    color: #1e1e1e;
+}
+/* end about */
+/* start service */
+.caption
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.caption h1{
+    font-size: 60px;
+}
+.com
+{
+    background-color: #0078ff;
+    width: 5%;
+    height: 5px;
+    margin: auto;
+}
+ .service i
+{
+    background-color: white;
+  padding: 20px;
+  color: black;
+ border: 10px #0078ff solid;
+ transition: all 1s;
+}
+.service i:hover
+{
+    background-color:#0078ff ;
+    border:10px #cde1f8  solid;
+    color: white;
+}
+/* end service */
+/* start countar */
+.countar
+{
+    background-image: url(../img/counters-bg.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.countar .back-g
+{
+    background-color:#0078ff ;
+    opacity: 0.7;
+    width: 100%;
+    position: relative;
+}
+.item
+{
+    background-color: transparent;
+    border:10px #cde1f8  solid;
+    color: white;
+}
+/* end countar */
+/* start portiflo */
+.caption
+{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.caption h1{
+    font-size: 60px;
+}
+.com
+{
+    background-color: #0078ff;
+    width: 5%;
+    height: 5px;
+    margin: auto;
+}
+.portiflo .trans-img
+{
+    overflow: hidden;
+}
+ .portiflo .trans-img a img 
+ {
+    transition: transform 1s ;
+ }
+ .portiflo .trans-img a img:hover
+ {
+     transform: scale(1.2,1.2);
+ }
+ .member
+ {
+     color: #0078ff;
+ }
+/* --end portiflo */
+/* start card */
+.carsoulpart
+{
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.carsoullayer
+{
+background-color: rgba(61, 108, 238, 0.596); 
+}
+.carousel-indicators
+{
+    top: 100%;
+}
+.carousel-indicators [data-bs-target]
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/* end card */
+/* start blog */
+.one a
+{
+    text-decoration: none;
+    color: #000;
+}
+.one a:hover
+{
+    color: #0078ff;
+}
+.blog a
+{
+    text-decoration: none;
+    color: #000;
+    transition: 1s ;
+}
+.blog a:hover
+{
+    color: #0078ff;
+}
+.blog-img
+{
+    padding-right: 5px;
+    width: 17%;
+}
+.child
+{
+    position: relative;
+}
+.child .child-one
+{
+    width: 100px;
+    background-color:#0078ff ;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+/* end glog */
+/* --strat contact */
+.contact
+{
+    background-image: url(../img/overlay-bg.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: 60px;
+}
+.contact .layer
+{
+    background-color:#0078ff ;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.contact h5
+{
+    font-size: 30px;
+    position: relative;
+}
+.contact h5::after
+{
+    content: "";
+    background-color: #0078ff;
+    width: 25%;
+    height: 3px;
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+ .contact button
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px !important;
+}
+.contact .three i
+{
+    font-size: 20px;
+    color: #000;
+    margin: 8px;
+    padding: 15px;
+    background-color: transparent;
+    border: 3px solid  #0078ff;
+    border-radius: 50%;
+}
+.contact .three i:hover
+{
+    color: white;
+    background-color:#0078ff ;
+    cursor: pointer;
+}
+/* -- end contact */
+/* --start footer-- */
+.end
+{
+    background-color: #0062d3;
+}
+.end a
+{
+    text-decoration: none;
+    color: white;
+}
+/* ---end footer */
+.up-icons
+{
+    background-color: #0078ff;
+    right: 40px;
+    bottom: 30px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.up-icons i
+{
+    color: white;
+    font-size: 32px;
+}
